@@ -1,0 +1,27 @@
+Font	Font style	Sizw
+Onyx	Regular	10
+Paalatino Linotupe	Regular	12
+Onyx	Bold Italic	9
+Nyala	Italic	9
+Onyx	Italic	12
+NSimSun	Regular	9
+Nyala	Bold	11
+Nyala	Bold Italic	8
+Onyx	Bold Italic	11
+NSimSun	Bold Italic	12
+Paalatino Linotupe	Bold	9
+NSimSun	Italic	11
+Old English Text MT	Italic	10
+NSimSun	Bold	10
+Nyala	Bold	12
+Paalatino Linotupe	Italic	8
+Nyala	Regular	10
+NSimSun	Bold	8
+Paalatino Linotupe	Bold Italic	10
+Paalatino Linotupe	Regular	11
+Old English Text MT	Regular	12
+Onyx	Regular	8
+Old English Text MT	Bold	9
+Onyx	Bold	9
+Old English Text MT	Bold Italic	8
+Old English Text MT	Bold	11
