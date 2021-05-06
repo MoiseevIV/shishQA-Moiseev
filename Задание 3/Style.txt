@@ -1,3 +1,0 @@
-Font: NSimSun, Nyala, Old English Text MT, Onyx, Paalatino Linotupe
-Font style: Regular, Italic, Bold, Bold Italic
-Sizw: 8, 9, 10, 11, 12
