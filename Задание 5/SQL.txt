@@ -22,3 +22,4 @@ DELETE FROM customers
  SELECT Employees.EmployeeID, OrderID, FirstName
 From Employees INNER JOIN Orders ON Employees.EmployeeID=Orders.EmployeeID
 Where FirstName='Steven'
+Ответ - рис. 4
