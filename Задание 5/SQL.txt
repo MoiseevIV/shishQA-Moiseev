@@ -1,0 +1,25 @@
+1. Посмотреть, сколько клиентов из Германии (SELECT, WHERE, COUNT)
+SELECT COUNT (*) FROM [Customers]
+where Country='Germany'
+Ответ - 11
+2. Посмотреть, имена скольких клиентов оканчиваются на на 'e' (LIKE)
+SELECT * FROM Customers
+WHERE CustomerName LIKE '%e'
+Ответ - рис. 1
+3. Прислать запрос и скриншот с Вашим именем, вставленным в таблицу Customers (INSERT, SELECT).
+INSERT INTO Customers (CustomerName) 
+VALUES ('Ivan Moiseev')
+Ответ - рис. 2
+4. Изменить собственное имя, вставленное в таблицу Customers (UPDATE, SELECT), сделать скриншот и прислать запрос.
+UPDATE Customers 
+SET CustomerName = 'Moiseev Ivan'
+WHERE CustomerName LIKE 'Ivan Moiseev'
+Ответ - рис. 3
+5. Удалить всех клиентов из города Nantes. Прислать запрос и результат (DELETE).
+DELETE FROM customers
+ WHERE City = 'Nantes';
+6. Прислать номера заказов (OrderID), оформленных для клиентов работником с именем Steven (FirstName) (INNER JOIN).
+ SELECT Employees.EmployeeID, OrderID, FirstName
+From Employees INNER JOIN Orders ON Employees.EmployeeID=Orders.EmployeeID
+Where FirstName='Steven'
+Ответ - рис. 4
